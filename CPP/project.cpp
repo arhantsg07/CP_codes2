@@ -18,7 +18,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
 }
 
 int main() {
-
+// this is a comment
     vector<int> nums{2, 7, 11, 15};
     int target = 9;
     return 0;
