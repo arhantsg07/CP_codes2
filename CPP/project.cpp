@@ -21,5 +21,9 @@ int main() {
 // this is a comment
     vector<int> nums{2, 7, 11, 15};
     int target = 9;
+    vector<int> x{twoSum(nums, target)};
+    for(auto it = nums.begin(); it != nums.end(); it++) {
+        cout << *(it) << " ";
+    }
     return 0;
 }
